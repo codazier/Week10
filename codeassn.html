@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO APP</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body class="container">
+<br>
+    <div class="card">
+        <div class ="card-body">
+            <h1> Want to Serve this Weekend?</h1>
+            <p> Fill out the requested information and choose the dates you are available</p>
+        </div>
+       
+    </div>
+    <div class="card">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-sm">
+                    <div class="form-group">
+                        <label for="new-serve-date"> Date You Want to Serve</label>
+                        <input type="date" class="form-control" id="new-serve-date">
+
+                    </div>
+                    <div class="row">
+                        <div class="col-sm">
+                            <div class="form-group">
+                                <label for="new-task"> Name</label>
+                                <input type="text" class="form-control" id="new-task" placeholder="Name">
+                    
+                            </div>
+                </div>
+          
+                        
+
+                </div>
+            </div>
+
+    </div>
+    
+    <div class="col-sm">
+        <div class="form-group">
+            <label for="new-phone-number"> Phone Number</label>
+            <input type="text" class="form-control" id="new-phone-number" placeholder="Phone number">
+
+        </div>
+
+
+        <div class="col-sm">
+            <div class="form-group">
+                <label for="new-email"> Email</label>
+                <input type="text" class="form-control" id="new-email" placeholder="Email">
+    
+            </div>
+
+</div>
+<div>
+    <button id="add" class="btn btn-primary form-control">Submit</button>
+    </div>
+            </div>
+        </div>
+    <table id="list" class="table table-dark table-stripped">
+        <tr>
+            <th>Name</th>
+            <th>Serve Date</th>
+            <th>Phone Number</th>
+            <th>Email</th>
+            <th>Actions</th>
+        </tr>
+    </table>
+
+    
+    
+
+    <script src="codeassn.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+</body>
+</html>
